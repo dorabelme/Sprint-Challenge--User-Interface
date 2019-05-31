@@ -34,15 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML introduces meaning to the web page rather than just presentation. The tag describes its meaning both to the browser and the developer. Semantic tags include <header>, <footer>, <section>, <article>, <p>, <h1>, <nav>. Writing semantic HTML is important from SEO perspective. Examples of non-semantic elements are <div> and <span>.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block elements will break the flow of content on a new line. They take up as much width as its parent element will allow. Both height and width can be used to adjust sizing of the element. It can nest both inline and block elements. 
+Inline elements, on the other hand, only take up as much space as the content. Block elements are not allowed to be nested inside inline elements. Height and width properties have no effect. They can be nested inside of other elements without disrupting the flow of content. Examples: <a>, <span>, <strong>.
+
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+Cross axis, y-axis
 
 5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+Git is a Distributed Version Control System that allows multiple developers to write code, edit and make changes to the code that’s stored in a repository in an organized manner. Git also creates a timeline, a history of changes that occur over time in the code. Git allows a team to keep track of who edited which files, what files they changed and how to get back to the original code if needed. It would be very difficult  for large teams to collaborate without git or other version control systems.
+
 
 ## Project Set Up
 
