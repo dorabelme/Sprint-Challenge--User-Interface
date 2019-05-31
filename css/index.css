@@ -274,5 +274,63 @@ hr {
 
 .about-container hr {
     width: 370px;
-    margin-left: 0;
+    margin-left:
+}
+
+
+input[type=text], select, textarea {
+	background: white;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc; 
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 25px;
+	resize: vertical;
+	font-family: 'Rubik', sans-serif;
+}
+
+input[type=submit] {
+	background-color: black;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%;
+}
+
+/* The animation code */
+@keyframes example {
+	from {background-color: black; color: white}
+	to {background-color: white; color: black}
+  }
+
+input[type=submit]:hover {
+	background-color: white;
+	color: black;
+	border: 0.5px solid black;
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+.contact {
+	background-color: #fafafa;
+	padding: 20px;
+	font-family: 'Rubik', sans-serif;
+    border: 0.5px solid grey;
+    margin-bottom: 50px;
+}
+
+.fname, .lname, .country, .subject {
+	padding-left: 3px;
+}
+
+.container form {
+	display: flex;
+	flex-direction: column;
+}
+
+#subject-area {
+	height: 200px;
 }
